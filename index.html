@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="energy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erioluwa Ayodeji | Petroleum Engineer & Subsurface AI Systems Architect | Web3 & SaaS Founder</title>
+  <meta name="description" content="Executive portfolio of Erioluwa Ayodeji: Petroleum Engineering graduate (B.Eng.), Subsurface AI & Real-Time Telemetry Specialist, and Full-Stack Web3 & AI Systems Architect.">
+  <meta name="keywords" content="Erioluwa Ayodeji, Petroleum Engineering, Subsurface AI, WITSML, Stick-Slip Vibration, Drilling Telemetry, Mindflow Voice AI, CookiePay, Web3 Developer, Lagos Nigeria">
+  <meta name="author" content="Erioluwa Ayodeji">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22><text y=%2226%22 font-size=%2226%22>⚡</text></svg>">
+  
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Glow Elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  
+  <!-- Top Navigation & Mode Switcher -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand">
+        <span class="brand-monogram">EA</span>
+        <div class="brand-text">
+          <span class="brand-name">Erioluwa Ayodeji</span>
+          <span class="brand-role" id="brandRoleLabel">Petroleum & Subsurface AI</span>
+        </div>
+      </div>
+
+      <!-- Mode Switcher Pill -->
+      <div class="mode-switch-wrapper">
+        <div class="mode-switch" role="tablist" aria-label="Portfolio Track Switcher">
+          <button class="mode-tab active" id="tabEnergy" role="tab" aria-selected="true" data-mode="energy">
+            <span class="mode-icon">🛢️</span>
+            <span class="mode-label">Upstream Energy & AI</span>
+            <span class="mode-badge">Deep-Tech</span>
+          </button>
+          <button class="mode-tab" id="tabTech" role="tab" aria-selected="false" data-mode="tech">
+            <span class="mode-icon">⚡</span>
+            <span class="mode-label">Web3 & SaaS Systems</span>
+            <span class="mode-badge">Production</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Header CTAs -->
+      <div class="header-actions">
+        <a href="assets/Erioluwa_Ayodeji_Executive_CV.pdf" target="_blank" class="btn btn-outline" download>
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Executive CV</span>
+        </a>
+        <button class="btn btn-primary" id="openContactBtn">
+          <span>Get in Touch</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+
+    <!-- ========================================== -->
+    <!-- TRACK 1: PETROLEUM ENGINEERING EXECUTIVE CV -->
+    <!-- ========================================== -->
+    <section id="energyTrack" class="track-section active" data-track="energy">
+      
+      <!-- CV Document Container -->
+      <article class="cv-document">
+        
+        <!-- CV Header / Masthead -->
+        <header class="cv-masthead">
+          <div class="cv-masthead-top">
+            <div class="cv-identity">
+              <h1 class="cv-name">ERIOLUWA AYODEJI</h1>
+              <p class="cv-title">Petroleum Engineer (B.Eng.) · Subsurface & Drilling Systems</p>
+              <p class="cv-subtitle">Covenant University (Second Class Upper Honours) · SPE Member</p>
+            </div>
+            
+            <div class="cv-quick-actions">
+              <a href="assets/Erioluwa_Ayodeji_Executive_CV.pdf" target="_blank" class="btn-cv btn-cv-primary" download>
+                <svg class="cv-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Download Official CV (PDF)</span>
+              </a>
+              <button class="btn-cv btn-cv-secondary" onclick="openContactModal('Petroleum Engineering Inquiry')">
+                <span>Contact Erioluwa</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- CV Contact Bar -->
+          <div class="cv-contact-bar">
+            <span class="cv-contact-item">
+              <strong>Location:</strong> Lagos, Nigeria (Available for Onshore / Offshore / Global Relocation)
+            </span>
+            <span class="cv-contact-item">
+              <strong>Email:</strong> <a href="mailto:ayodejierioluwa@gmail.com">ayodejierioluwa@gmail.com</a>
+            </span>
+            <span class="cv-contact-item">
+              <strong>Phone:</strong> <a href="tel:+2349026170219">+234 902 617 0219</a>
+            </span>
+            <span class="cv-contact-item">
+              <strong>GitHub:</strong> <a href="https://github.com/ayodejierioluwa" target="_blank" rel="noopener">github.com/ayodejierioluwa</a>
+            </span>
+          </div>
+
+          <!-- Sticky / Interactive Table of Contents -->
+          <nav class="cv-nav-toc" aria-label="Resume Sections">
+            <a href="#cv-summary" class="cv-toc-link">Executive Summary</a>
+            <a href="#cv-competencies" class="cv-toc-link">Technical Competencies</a>
+            <a href="#cv-experience" class="cv-toc-link">Engineering Experience</a>
+            <a href="#cv-projects" class="cv-toc-link">Systems & Models</a>
+            <a href="#cv-education" class="cv-toc-link">Education & Credentials</a>
+            <a href="#cv-dossier" class="cv-toc-link">Official Dossier Downloads</a>
+          </nav>
+        </header>
+
+        <!-- Section 1: Executive Summary -->
+        <section id="cv-summary" class="cv-section">
+          <h2 class="cv-section-heading">1. Executive Summary</h2>
+          <div class="cv-section-body">
+            <p class="cv-text-block">
+              Rigorous, analytical Petroleum Engineering graduate (B.Eng., Second Class Upper Honours, Covenant University) with engineering training at the National Engineering and Technical Company (NETCO / NNPC). Combines a thorough grounding in subsurface mechanics, hydraulic flow modeling, and drilling dynamics with advanced algorithmic capabilities in real-time telemetry processing (WITSML).
+            </p>
+            <p class="cv-text-block">
+              Demonstrated ability to model complex physical phenomena—specifically downhole torsional stick-slip vibration attenuation and bottom-hole assembly (BHA) fatigue mitigation. Experienced in evaluating P&IDs, conducting pipeline flowline verification, and architecting data solutions for national regulatory compliance under Nigeria's Petroleum Industry Act (PIA). Committed to operational safety, drilling efficiency, and non-productive time (NPT) minimization in deepwater and continental shelf assets.
+            </p>
+
+            <div class="cv-highlight-tags">
+              <span class="cv-tag">Drilling Mechanics & BHA</span>
+              <span class="cv-tag">Torsional Stick-Slip Attenuation</span>
+              <span class="cv-tag">WITSML Telemetry Ingestion</span>
+              <span class="cv-tag">ESP Condition Monitoring</span>
+              <span class="cv-tag">Subsea P&ID & Flowlines</span>
+              <span class="cv-tag">PIA Compliance & Allocation</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 2: Technical Competencies -->
+        <section id="cv-competencies" class="cv-section">
+          <h2 class="cv-section-heading">2. Core Technical Competencies</h2>
+          <div class="cv-section-body">
+            <div class="cv-table-wrapper">
+              <table class="cv-table">
+                <thead>
+                  <tr>
+                    <th style="width: 28%;">Domain</th>
+                    <th>Engineering Knowledge & Operational Skills</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="cv-domain-cell">Drilling Dynamics & Operations</td>
+                    <td>Drillstring torsional & axial vibration analysis, BHA harmonic modeling, stick-slip mitigation, rate of penetration (ROP) optimization, hydraulics calculation (surge & swab pressures), well control barriers.</td>
+                  </tr>
+                  <tr>
+                    <td class="cv-domain-cell">Subsurface & Production Systems</td>
+                    <td>Multiphase fluid flow (Beggs & Brill, Hagedorn & Brown), artificial lift systems (Electrical Submersible Pumps - ESPs), well performance analysis (IPR / VLP matching), pressure transient analysis.</td>
+                  </tr>
+                  <tr>
+                    <td class="cv-domain-cell">Field Facilities & Engineering Safety</td>
+                    <td>P&ID review, subsea flowline layouts, piping stress considerations, HAZOP risk assessment, barrier integrity verification, blowout prevention standards.</td>
+                  </tr>
+                  <tr>
+                    <td class="cv-domain-cell">Rig Data & Telemetry Protocols</td>
+                    <td>WITSML v1.4.1 / v2.0 real-time sensor streams, mud pulse and wired pipe data ingestion, surface SCADA logs, high-frequency time-series signal processing.</td>
+                  </tr>
+                  <tr>
+                    <td class="cv-domain-cell">Software & Engineering Tools</td>
+                    <td>Petrel, Eclipse (reservoir simulation fundamentals), Pipesim (well modeling), AutoCAD, Python (NumPy, SciPy, Pandas for engineering physics calculations), MATLAB.</td>
+                  </tr>
+                  <tr>
+                    <td class="cv-domain-cell">Statutory & Governance</td>
+                    <td>Petroleum Industry Act (PIA) statutory reporting, NUPRC daily well-test and production return frameworks, API standards, SPE engineering ethics.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3: Engineering Experience -->
+        <section id="cv-experience" class="cv-section">
+          <h2 class="cv-section-heading">3. Professional & Engineering Experience</h2>
+          <div class="cv-section-body">
+
+            <!-- Experience Item 1 -->
+            <div class="cv-entry">
+              <div class="cv-entry-header">
+                <div>
+                  <h3 class="cv-entry-role">Petroleum Telemetry & Systems Architect (Project Lead)</h3>
+                  <div class="cv-entry-company">PetroOne / Omesham Research Initiative · Lagos, Nigeria</div>
+                </div>
+                <div class="cv-entry-period">2024 – Present</div>
+              </div>
+              <ul class="cv-entry-bullets">
+                <li>Formulated a closed-loop torsional vibration attenuation model to eliminate downhole drillstring stick-slip oscillations, targeting a 40%+ reduction in BHA failure rates.</li>
+                <li>Designed high-frequency WITSML data ingestion pipelines to process real-time surface and downhole sensor feeds (RPM, torque, WOB, standpipe pressure) with under 100ms processing latency.</li>
+                <li>Developed full institutional pitch deck, engineering specifications, and 5-year commercial pro-forma financial models tailored for offshore Gulf of Guinea and Middle Eastern drilling campaigns.</li>
+                <li>Evaluated torsional wave propagation down 12,000+ ft drillstrings to mathematically prove active surface counter-torque dampening efficacy.</li>
+              </ul>
+              <div class="cv-entry-docs">
+                <span class="cv-docs-label">Related Project Dossiers:</span>
+                <a href="assets/PetroOne_Omesham_Pitch_Deck.pdf" target="_blank" class="cv-doc-link" download>
+                  📄 PetroOne Pitch Deck (PDF)
+                </a>
+                <a href="assets/PetroOne_Omesham_Historical_Projected_Financials.pdf" target="_blank" class="cv-doc-link" download>
+                  📊 5-Year Pro-Forma Financial Model (PDF)
+                </a>
+              </div>
+            </div>
+
+            <!-- Experience Item 2 -->
+            <div class="cv-entry">
+              <div class="cv-entry-header">
+                <div>
+                  <h3 class="cv-entry-role">Engineering Intern – Subsurface Facilities & Piping</h3>
+                  <div class="cv-entry-company">National Engineering and Technical Company (NETCO / NNPC) · Lagos, Nigeria</div>
+                </div>
+                <div class="cv-entry-period">Industrial Training Practicum</div>
+              </div>
+              <ul class="cv-entry-bullets">
+                <li>Participated in detailed engineering design reviews for upstream oil and gas production facilities, focusing on subsea flowlines and topside piping.</li>
+                <li>Reviewed and marked up Piping and Instrumentation Diagrams (P&IDs) and Process Flow Diagrams (PFDs) in accordance with API and company design standards.</li>
+                <li>Supported multidisciplinary engineering teams during HAZOP sessions, documenting safety-critical elements (SCEs) and pressure relief valve (PRV) sizing verification.</li>
+                <li>Conducted flowline pressure-drop calculations and wall-thickness verifications for offshore transportation manifolds.</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Section 4: Engineering Systems & Models -->
+        <section id="cv-projects" class="cv-section">
+          <h2 class="cv-section-heading">4. Technical Projects & Subsurface Systems</h2>
+          <div class="cv-section-body">
+            
+            <div class="cv-project-grid">
+              
+              <div class="cv-project-card">
+                <div class="cv-project-tag">Drilling Optimization</div>
+                <h4 class="cv-project-name">Omesham AI Torsional Dampening Engine</h4>
+                <p class="cv-project-desc">
+                  Algorithmic system addressing non-productive time caused by drill bit stalling and violent slip acceleration in hard stringer formations. Utilizes surface sensor telemetry to dynamically modulate top-drive torque output, converting resonance into stable laminar bit rotation.
+                </p>
+                <div class="cv-project-metric">
+                  <strong>Engineering Impact:</strong> Mitigates $150k+/day deepwater rig downtime due to twisted-off drill pipes.
+                </div>
+              </div>
+
+              <div class="cv-project-card">
+                <div class="cv-project-tag">Artificial Lift & Production</div>
+                <h4 class="cv-project-name">PetroSight ESP Condition Monitoring</h4>
+                <p class="cv-project-desc">
+                  Prognostics framework tracking Electrical Submersible Pump operating envelopes. Analyzes motor winding temperatures, intake/discharge pressure differentials, and current fluctuations to flag imminent gas-locking or sand erosion before catastrophic downhole burn-out.
+                </p>
+                <div class="cv-project-metric">
+                  <strong>Engineering Impact:</strong> Extends ESP run-life by up to 24%, reducing expensive workover barge mobilizations.
+                </div>
+              </div>
+
+              <div class="cv-project-card">
+                <div class="cv-project-tag">Regulatory & Fiscal Governance</div>
+                <h4 class="cv-project-name">NUPRC Digital Compliance & Production Allocation</h4>
+                <p class="cv-project-desc">
+                  Automated field-to-terminal reconciliation engine aligning flow station daily production allocations with export terminal custody transfer meters. Standardizes reporting requirements under the Petroleum Industry Act (PIA) statutory guidelines.
+                </p>
+                <div class="cv-project-metric">
+                  <strong>Engineering Impact:</strong> Eliminates manual accounting reconciliation discrepancies across joint venture assets.
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Section 5: Education & Credentials -->
+        <section id="cv-education" class="cv-section">
+          <h2 class="cv-section-heading">5. Education, Honors & Professional Affiliations</h2>
+          <div class="cv-section-body">
+            
+            <div class="cv-edu-row">
+              <div class="cv-edu-main">
+                <h3 class="cv-edu-degree">Bachelor of Engineering (B.Eng.) in Petroleum Engineering</h3>
+                <div class="cv-edu-inst">Covenant University · Ota, Ogun State, Nigeria</div>
+                <div class="cv-edu-grade"><strong>Graduation Standing:</strong> Second Class Honours (Upper Division)</div>
+                <p class="cv-edu-notes">
+                  <strong>Core Coursework:</strong> Drilling Engineering, Well Completion & Workover, Reservoir Engineering I & II, Petroleum Production Engineering, Well Logging & Formation Evaluation, Applied Fluid Mechanics, Rock Mechanics, Natural Gas Engineering, Environmental Impact Assessment.
+                </p>
+              </div>
+              <div class="cv-edu-year">B.Eng. Degree</div>
+            </div>
+
+            <div class="cv-affiliations">
+              <div class="cv-affil-item">
+                <span class="cv-affil-badge">SPE</span>
+                <div>
+                  <strong>Society of Petroleum Engineers (SPE)</strong>
+                  <div class="cv-affil-desc">Active Student & Young Professional Member · Technical attendee at Nigeria Annual International Conference and Exhibition (NAICE).</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Section 6: Official Dossier Downloads -->
+        <section id="cv-dossier" class="cv-section">
+          <h2 class="cv-section-heading">6. Official Engineering Dossiers & Downloads</h2>
+          <div class="cv-section-body">
+            <p class="cv-text-block">
+              All documents below are formatted for immediate executive review, board presentation, or technical diligence.
+            </p>
+
+            <div class="cv-download-cards">
+              
+              <div class="cv-file-card">
+                <div class="cv-file-icon">📄</div>
+                <div class="cv-file-info">
+                  <div class="cv-file-title">Erioluwa Ayodeji – Executive Engineering CV</div>
+                  <div class="cv-file-meta">Verified PDF Document · Formatted for Technical Directors & HR</div>
+                </div>
+                <a href="assets/Erioluwa_Ayodeji_Executive_CV.pdf" target="_blank" class="btn-cv btn-cv-outline" download>
+                  Download PDF
+                </a>
+              </div>
+
+              <div class="cv-file-card">
+                <div class="cv-file-icon">📊</div>
+                <div class="cv-file-info">
+                  <div class="cv-file-title">PetroOne / Omesham AI Institutional Pitch Deck</div>
+                  <div class="cv-file-meta">10-Slide Executive Deck · Downhole Physics, WITSML Architecture & Commercial Target</div>
+                </div>
+                <a href="assets/PetroOne_Omesham_Pitch_Deck.pdf" target="_blank" class="btn-cv btn-cv-outline" download>
+                  Download Deck
+                </a>
+              </div>
+
+              <div class="cv-file-card">
+                <div class="cv-file-icon">📈</div>
+                <div class="cv-file-info">
+                  <div class="cv-file-title">PetroOne – 5-Year Pro-Forma Financial Model</div>
+                  <div class="cv-file-meta">Institutional PDF Model · Unit Economics, Rig Tiers & SaaS Valuation Analysis</div>
+                </div>
+                <a href="assets/PetroOne_Omesham_Historical_Projected_Financials.pdf" target="_blank" class="btn-cv btn-cv-outline" download>
+                  Download Model
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TRACK 2: WEB3, AI & SAAS PRODUCTS ECOSYSTEM -->
+    <!-- ========================================== -->
+    <section id="techTrack" class="track-section" data-track="tech">
+      
+      <!-- Tech Hero -->
+      <div class="hero-block">
+        <div class="hero-tag tag-cyan">
+          <span class="pulse-dot dot-cyan"></span>
+          <span>Full-Stack AI Engineer · Web3 Crypto Rails · High-Velocity Builder</span>
+        </div>
+        <h1 class="hero-title">
+          Architecting Autonomous Voice AI Agents & <span class="gradient-text gradient-violet">Non-Custodial Crypto Rails</span>
+        </h1>
+        <p class="hero-subtitle">
+          I build production-grade web applications from scratch: autonomous voice agents parsing messy user intent, multi-chain instant checkout gateways, on-chain Solana micro-trackers, and serverless edge backends.
+        </p>
+
+        <!-- Tech Metrics Strip -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <span class="metric-val">&lt;450ms</span>
+            <span class="metric-desc">Neural Audio Transcription & JSON Intent Structuring</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-val">100%</span>
+            <span class="metric-desc">Non-Custodial Settlement (Zero Middleman Risk)</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-val">Serverless</span>
+            <span class="metric-desc">Stateless Vercel Edge + Supabase Row-Level Security</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-val">Multi-Chain</span>
+            <span class="metric-desc">Solana SPL, EVM (USDT/USDC/ETH), Direct Webhooks</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="https://t.me/usemindflowbot" target="_blank" rel="noopener" class="btn btn-hero btn-hero-violet">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+            <span>Launch Mindflow on Telegram (@usemindflowbot)</span>
+          </a>
+          <button class="btn btn-hero-outline" onclick="document.getElementById('cookiepaySection').scrollIntoView({behavior: 'smooth'})">
+            <span>Inspect CookiePay API Rails</span>
+          </button>
+          <a href="https://github.com/ayodejierioluwa" target="_blank" rel="noopener" class="btn btn-hero-ghost">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub Profile</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Flagship 1: Mindflow Video Showcase -->
+      <section class="section-block">
+        <div class="video-feature-card">
+          <div class="video-feature-grid">
+            <div class="video-wrapper">
+              <div class="video-badge">
+                <span class="pulse-dot"></span>
+                <span>Live Launch Product Video (Lo-Fi Neural Demo)</span>
+              </div>
+              <video class="feature-video" controls poster="assets/mindflow_logo.jpg">
+                <source src="assets/Mindflow_Launch_Video_Lofi.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            
+            <div class="video-info">
+              <div class="product-header-badge">
+                <span class="tech-tag tag-violet">AI Voice Assistant</span>
+                <span class="tech-tag">Telegram Bot</span>
+                <span class="tech-tag">Vercel Edge</span>
+              </div>
+              <h2 class="video-title">Mindflow Voice AI Assistant</h2>
+              <p class="video-desc">
+                Mindflow turns raw, rambling voice notes into organized daily action items, logged expenses, and structured reminders inside Telegram. It uses Whisper for speech recognition, OpenAI's function calling for JSON extraction, and Supabase for real-time task management.
+              </p>
+
+              <div class="feature-checklist">
+                <div class="check-item">
+                  <span class="check-icon">✓</span>
+                  <div><strong>Instant Voice-to-Action:</strong> Converts 60-second voice rambles into tasks, priorities, and deadlines in under 2 seconds.</div>
+                </div>
+                <div class="check-item">
+                  <span class="check-icon">✓</span>
+                  <div><strong>Automated Expense Tracking:</strong> "Spent $45 on offshore drill bits" automatically tags category, currency, and amount.</div>
+                </div>
+                <div class="check-item">
+                  <span class="check-icon">✓</span>
+                  <div><strong>Serverless Edge Resiliency:</strong> Zero-state warm container handling on Vercel with automated Telegram webhook idempotency.</div>
+                </div>
+              </div>
+
+              <div class="video-actions">
+                <a href="https://t.me/usemindflowbot" target="_blank" rel="noopener" class="btn btn-primary">
+                  <span>Chat with @usemindflowbot</span> ↗
+                </a>
+                <a href="https://github.com/ayodejierioluwa" target="_blank" rel="noopener" class="btn btn-outline">
+                  <span>View Architecture</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Flagship 2: CookiePay API Sandbox -->
+      <section id="cookiepaySection" class="section-block">
+        <div class="section-header">
+          <span class="section-kicker">Multi-Chain Financial Rail</span>
+          <h2 class="section-title">CookiePay: Non-Custodial Crypto Gateway</h2>
+          <p class="section-desc">Accept cryptocurrency without intermediaries, frozen funds, or high credit card processor chargebacks. Instant direct-to-merchant wallet settlement with real-time webhooks.</p>
+        </div>
+
+        <div class="code-sandbox-card">
+          <div class="sandbox-tabs">
+            <button class="sandbox-tab active" data-tab="curl">cURL</button>
+            <button class="sandbox-tab" data-tab="node">Node.js / TypeScript</button>
+            <button class="sandbox-tab" data-tab="python">Python</button>
+            <button class="sandbox-tab" data-tab="webhook">Webhook Payload</button>
+          </div>
+
+          <div class="sandbox-content">
+            <!-- cURL -->
+            <pre class="code-block active" id="code-curl"><code><span class="code-comment"># Create an instant non-custodial checkout session</span>
+curl -X POST https://api.cookiepay.io/v1/charges \
+  -H "Authorization: Bearer ck_live_89f02a91c..." \
+  -H "Content-Type: application/json" \
+  -d '{
+    "amount": "150.00",
+    "currency": "USD",
+    "accepted_tokens": ["USDT_SOL", "USDC_BASE", "ETH"],
+    "recipient_address": "8xPz...K49w",
+    "callback_url": "https://yourapp.com/api/cookiepay/webhook"
+  }'</code></pre>
+
+            <!-- Node -->
+            <pre class="code-block" id="code-node"><code><span class="code-keyword">import</span> { CookiePay } <span class="code-keyword">from</span> <span class="code-string">'@cookiepay/sdk'</span>;
+
+<span class="code-keyword">const</span> client = <span class="code-keyword">new</span> CookiePay({ apiKey: process.env.COOKIEPAY_SECRET });
+
+<span class="code-keyword">const</span> charge = <span class="code-keyword">await</span> client.charges.create({
+  amount: 150.00,
+  currency: <span class="code-string">'USD'</span>,
+  tokens: [<span class="code-string">'USDT'</span>, <span class="code-string">'SOL'</span>],
+  merchantWallet: <span class="code-string">'8xPz41uN9Xq7vYt42Ld7...'</span>,
+  metadata: { orderId: <span class="code-string">'ORD-9821'</span> }
+});
+
+console.log(<span class="code-string">`Checkout hosted at: ${charge.hosted_url}`</span>);</code></pre>
+
+            <!-- Python -->
+            <pre class="code-block" id="code-python"><code><span class="code-keyword">import</span> requests
+
+payload = {
+    <span class="code-string">"amount"</span>: 150.00,
+    <span class="code-string">"currency"</span>: <span class="code-string">"USD"</span>,
+    <span class="code-string">"settle_chain"</span>: <span class="code-string">"solana"</span>,
+    <span class="code-string">"payout_address"</span>: <span class="code-string">"8xPz41uN9Xq7vYt42Ld7..."</span>
+}
+
+res = requests.post(
+    <span class="code-string">"https://api.cookiepay.io/v1/charges"</span>,
+    json=payload,
+    headers={<span class="code-string">"Authorization"</span>: <span class="code-string">"Bearer ck_live_..."</span>}
+)
+print(res.json()[<span class="code-string">"payment_address"</span>])</code></pre>
+
+            <!-- Webhook -->
+            <pre class="code-block" id="code-webhook"><code>{
+  <span class="code-string">"event"</span>: <span class="code-string">"charge.confirmed"</span>,
+  <span class="code-string">"id"</span>: <span class="code-string">"ch_9011afbc"</span>,
+  <span class="code-string">"amount_received"</span>: <span class="code-string">"150.00"</span>,
+  <span class="code-string">"token"</span>: <span class="code-string">"USDT"</span>,
+  <span class="code-string">"tx_hash"</span>: <span class="code-string">"5VzN7X1bM9tYg..."</span>,
+  <span class="code-string">"confirmations"</span>: 32,
+  <span class="code-string">"status"</span>: <span class="code-string">"settled_to_merchant"</span>
+}</code></pre>
+          </div>
+          
+          <div class="sandbox-footer">
+            <span class="sandbox-note">⚡ No custody of funds · Direct smart-contract or wallet settlement · Zero frozen balance risk.</span>
+            <button class="btn btn-sm btn-outline" onclick="openContactModal('CookiePay Integration')">Request API Docs</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- More Web3 / SaaS Projects -->
+      <section class="section-block">
+        <div class="section-header">
+          <span class="section-kicker">Ecosystem & Infrastructure</span>
+          <h2 class="section-title">Production Web3 & Analytics Backlog</h2>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Mermail -->
+          <article class="project-card">
+            <div class="project-badge-strip">
+              <span class="tech-tag tag-violet">Web3 Security</span>
+              <span class="tech-tag">Zero-Knowledge</span>
+              <span class="tech-tag">Arweave</span>
+            </div>
+            <h3 class="project-title">Mermail Security Desk</h3>
+            <p class="project-summary">
+              Decentralized, encrypted vulnerability triage portal for smart contract security researchers and white-hat hackers. Stores cryptographic hashes of bug disclosures on Arweave for immutable proof-of-discovery before public patches.
+            </p>
+            <div class="project-specs">
+              <div class="spec-row">
+                <span class="spec-label">Security:</span>
+                <span class="spec-value">Client-side PGP encryption, zero server-stored plain text</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Target Audience:</span>
+                <span class="spec-value">DeFi protocol treasuries, bug bounty hunters, audit firms</span>
+              </div>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-outline" onclick="openContactModal('Mermail Inquiry')">Inquire for Protocol</button>
+            </div>
+          </article>
+
+          <!-- RaeBot -->
+          <article class="project-card">
+            <div class="project-badge-strip">
+              <span class="tech-tag">Solana</span>
+              <span class="tech-tag">High-Frequency</span>
+              <span class="tech-tag">WebSocket</span>
+            </div>
+            <h3 class="project-title">RaeBot Solana Pool Monitor</h3>
+            <p class="project-summary">
+              High-throughput Solana on-chain liquidity tracker. Listens to Raydium and Orca concentrated liquidity mint events, parsing program logs within 40ms to detect liquidity lock periods, mint authority status, and whale movements.
+            </p>
+            <div class="project-specs">
+              <div class="spec-row">
+                <span class="spec-label">Performance:</span>
+                <span class="spec-value">Processed over 1.2M on-chain transaction logs via dedicated RPC</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Notification Engine:</span>
+                <span class="spec-value">Async Telegram bot channel broadcast with instant DexScreener deep links</span>
+              </div>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-outline" onclick="openContactModal('RaeBot Tech Inquiry')">View Architecture</button>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- UNIVERSAL ABOUT / CAREER SECTION          -->
+    <!-- ========================================== -->
+    <section class="section-block about-section">
+      <div class="about-grid">
+        <div class="about-left">
+          <span class="section-kicker">Professional Philosophy</span>
+          <h2 class="section-title">The Intersection of Heavy Engineering & Modern Software</h2>
+          <p class="about-p">
+            Most software engineers have never walked a drill floor, felt the vibration of mud pumps, or analyzed acoustic borehole logs. Conversely, most petroleum engineers do not build distributed serverless architectures or write smart contracts.
+          </p>
+          <p class="about-p">
+            I operate precisely at this convergence. With a rigorous B.Eng. in Petroleum Engineering from Covenant University and years of hands-on full-stack development, I build systems that solve real operational friction—whether that's eliminating a $180,000/day deepwater rig stall or deploying a voice AI assistant that streamlines an executive's entire day.
+          </p>
+          
+          <div class="about-credentials">
+            <div class="cred-badge">
+              <strong>B.Eng. Petroleum Engineering</strong>
+              <span>Covenant University (Second Class Upper)</span>
+            </div>
+            <div class="cred-badge">
+              <strong>Technical Internship</strong>
+              <span>NETCO / NNPC (Piping, Flowlines, P&IDs)</span>
+            </div>
+            <div class="cred-badge">
+              <strong>Lagos, Nigeria</strong>
+              <span>Available for Global Relocation & Remote Contracts</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div class="contact-card-box">
+            <h3>Direct Contact & Channels</h3>
+            <p>Ready to discuss drilling technology, subsurface AI, or foundational engineering roles?</p>
+            
+            <div class="contact-item">
+              <span class="contact-label">Email:</span>
+              <a href="mailto:ayodejierioluwa@gmail.com" class="contact-link">ayodejierioluwa@gmail.com</a>
+              <button class="copy-btn" onclick="copyToClipboard('ayodejierioluwa@gmail.com', this)">Copy</button>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Phone / WhatsApp:</span>
+              <a href="tel:+2349026170219" class="contact-link">+234 902 617 0219</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">GitHub:</span>
+              <a href="https://github.com/ayodejierioluwa" target="_blank" rel="noopener" class="contact-link">github.com/ayodejierioluwa</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Telegram:</span>
+              <a href="https://t.me/usemindflowbot" target="_blank" rel="noopener" class="contact-link">@usemindflowbot</a>
+            </div>
+
+            <div class="contact-box-actions">
+              <button class="btn btn-primary btn-block" onclick="openContactModal('General Executive Contact')">
+                <span>Send Quick Message</span>
+              </button>
+              <a href="assets/Erioluwa_Ayodeji_Executive_CV.pdf" target="_blank" class="btn btn-outline btn-block" download>
+                <span>Download Executive CV (PDF)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <span class="footer-monogram">EA</span>
+        <div>
+          <div class="footer-copy">© 2026 Erioluwa Ayodeji. All rights reserved.</div>
+          <div class="footer-sub">Engineered with high standards in Lagos, Nigeria.</div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <a href="#energyTrack" class="footer-link" onclick="switchTrack('energy')">Upstream Energy Track</a>
+        <a href="#techTrack" class="footer-link" onclick="switchTrack('tech')">Web3 & AI Track</a>
+        <a href="assets/Erioluwa_Ayodeji_Executive_CV.pdf" target="_blank" class="footer-link" download>CV (PDF)</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Contact Modal -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-box">
+      <button class="modal-close" id="closeContactBtn">&times;</button>
+      <div class="modal-header">
+        <h3 id="modalSubject">Get in Touch with Erioluwa</h3>
+        <p>Direct communication for technical advisory, roles, or project collaborations.</p>
+      </div>
+
+      <form id="contactForm" onsubmit="handleContactSubmit(event)">
+        <div class="form-group">
+          <label for="contactName">Your Name & Title</label>
+          <input type="text" id="contactName" placeholder="e.g. Dr. Frank O. / Drilling Manager" required>
+        </div>
+        <div class="form-group">
+          <label for="contactEmail">Your Email</label>
+          <input type="email" id="contactEmail" placeholder="e.g. frank@operator.com" required>
+        </div>
+        <div class="form-group">
+          <label for="contactMessage">Message / Proposal</label>
+          <textarea id="contactMessage" rows="4" placeholder="Describe the role, project, or technical question..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <span id="submitBtnLabel">Send Email via Default Client</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
